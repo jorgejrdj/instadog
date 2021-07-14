@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Input from '../Forms/Input';
+import Button from '../Forms/Button';
 import useForm from '../../Hooks/useForm';
 import { UserContext } from '../../UserContext';
-import Button from '../Forms/Button';
-import Input from '../Forms/Input';
 import Error from '../Helper/Error';
-import styles from './LoginForm.module.css'
+import styles from './LoginForm.module.css';
 import stylesBtn from '../Forms/Button.module.css';
 
-export const LoginForm = () => {
+const LoginForm = () => {
   const username = useForm();
   const password = useForm();
 
@@ -49,3 +49,4 @@ export const LoginForm = () => {
   );
 };
 
+export default LoginForm;
