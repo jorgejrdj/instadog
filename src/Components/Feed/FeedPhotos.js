@@ -6,7 +6,7 @@ import Error from '../Helper/Error';
 import Loading from '../Helper/Loading';
 import styles from './FeedPhotos.module.css';
 
-export const FeedPhotos = ({ page, user, setModalPhoto, setInfinite }) => {
+const FeedPhotos = ({ page, user, setModalPhoto, setInfinite }) => {
   const { data, loading, error, request } = useFetch();
 
   React.useEffect(() => {
@@ -14,7 +14,6 @@ export const FeedPhotos = ({ page, user, setModalPhoto, setInfinite }) => {
       const total = 6;
       const { url, options } = PHOTOS_GET({ page, total, user });
       const { response, json } = await request(url, options);
-      console.log('Request:', json);
       if (response && response.ok && json.length < total) setInfinite(false);
     }
     fetchPhotos();
