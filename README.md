@@ -1,38 +1,59 @@
-Projeto em Construção - Instadog
+<h1 align="center">Dogs</h1>
 
-<!--Projeto final do curso React Origamid!
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Como Instalar</a> &#xa0; | &#xa0;
+</p>
 
-Nesse projeto utilizamos:
-Hooks,
-React Router,
-useContext,
-CSS Modules,
-PropTypes,
-Componentes Funcionais,
-Propriedades,
-Eventos
-e a lib Vitoty para os gráficos de estatísticas.
-Criamos hooks personalizados para consumir Api do projeto.
+## Sobre ##
 
-ReactJS para criação da interface
-React-router-dom para criação de rotas
-CSS Modules para estilização com o css
-Victory lib externa para criação de graficos
+Projeto é uma rede social de pets!
 
-Foi consumido uma API WordPress para criação de conta, autenticação, postagem de fotos, comentários e muito mais!
+## :sparkles: Funcionalidades ##
 
-Nesse projeto utilizamos:
-Hooks,
-React Router,
-useContext,
-CSS Modules,
-PropTypes,
-Componentes Funcionais,
-Propriedades,
-Eventos
-e a lib Vitoty para os gráficos de estatísticas.
-Criamos hooks personalizados para consumir Api do projeto.
+:heavy_check_mark: Cadastro do usuário;\
+:heavy_check_mark: Post de fotos ;\
+:heavy_check_mark: Comentários em posts de outros usuários  ;\
+:heavy_check_mark: Consumo de API Externa  ;\
+:heavy_check_mark: Estatistica de vizualizações com um dashboard ;\
+:heavy_check_mark: Delete de fotos ;\
+:heavy_check_mark: Recuperar senha ;\
 
+## :rocket: Tecnologias ##
+
+As seguintes ferramentas foram usadas na construção do projeto:
+-Hooks;
+-Router;
+-useContext;
+-CSS Modules;
+-PropTypes;
+-Biblioteca [Vitory](about:blank) para criação de gráficos de estatísticas;
 
 
-Observação: como Api não e minha ela apaga a cada 10 minutos os dados do usuário, mais da pra testar o app por completo da pra cadastrar novos usuários, trocar senha, deletar fotos postadas, comentar em outros perfis cadastrados. Deixe um comentário do que você achou do projeto. -->
+## Pré requisitos ##
+
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+## :checkered_flag: Como Instalar? ##
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/jorgejrdj/instadog
+
+# Entre na pasta
+$ cd instadog
+
+# Instale as dependências
+$ yarn
+
+# Para iniciar o projeto
+$ yarn start
+
+# O app vai inicializar em <http://localhost:3000>
+```
+
+## :memo:  ##
+Projeto final do curso React Origamid!
