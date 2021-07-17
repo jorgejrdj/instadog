@@ -10,7 +10,7 @@
 
 ## Sobre ##
 
-Projeto é uma rede social de pets!
+Projeto é uma rede social de pets
 
 ## :sparkles: Funcionalidades ##
 
