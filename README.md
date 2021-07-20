@@ -10,7 +10,7 @@
 
 ## Sobre ##
 
-Projeto é uma rede social de pets.
+Projeto é uma rede social de pets, desenvolvido com as tecnologias mais avançadas para que seu pet se conecte com seus amigos.
 
 ## :sparkles: Funcionalidades ##
 
